@@ -4,14 +4,12 @@ double a = 0.1;
 double b = 1;
 double h = 0.1;
 
-
 double Factorial(double n)
 {
     if (n == 1 || n == 0) return 1;
 
     return n * Factorial(n - 1);
 }
-
 
 for (double x = a; x <= b; x += h)
 {
@@ -34,7 +32,6 @@ for (double x = a; x <= b; x += h)
         Slag = Math.Abs(slag);
 
         S = S + slag;
-
         ++i;
     }
 
@@ -42,9 +39,11 @@ for (double x = a; x <= b; x += h)
     // Console.ReadKey();
     // Console.WriteLine($"{S}\t{y}");
 }
-
 Console.ReadKey();
 */
+
+
+
 
 /* номер 4
 
@@ -53,14 +52,12 @@ double a = 0.1;
 double b = 1;
 double h = 0.1;
 
-
 double Factorial(double n)
 {
     if (n == 1 || n == 0) return 1;
 
     return n * Factorial(n - 1);
 }
-
 
 for (double x = a; x <= b; x += h)
 {
@@ -73,7 +70,6 @@ for (double x = a; x <= b; x += h)
 
     while (Slag >= 0.0001)
     {
-
         double x1 = 2 * i + 1;
         int p = i * 2;
         double x2 = Math.Pow(x, p);
@@ -83,15 +79,10 @@ for (double x = a; x <= b; x += h)
         Slag = Math.Abs(slag);
 
         S = S + slag;
-
         ++i;
     }
-
-
     Console.WriteLine("{0,8:f1}\t{1,8:f5}\t{2,8:f5}\t ", x, y, S);
-
 }
-
 Console.ReadKey();
 Console.ReadKey();
 */
